@@ -1,0 +1,16 @@
+#function to calculate the sum all the elements in an array 
+
+def list_sum(A,n):
+sum = 0
+for i in range(n):
+   sum += A[i]
+return sum 
+
+#sample array[1,2,3,4,5,6]
+
+#finding the number of elements in an array 
+n = len(A)
+
+#call the function and print the result 
+print(list_sum(A,n))
+
